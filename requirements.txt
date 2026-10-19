@@ -1,0 +1,10 @@
+# BenefitsBridge Requirements
+# Core app works without any LLM dependencies
+
+streamlit>=1.32.0
+pydantic>=2.6.0
+
+# Optional: Only needed if you want to enable LLM-powered agents
+# langchain>=0.1.0
+# langchain-community>=0.0.10
+# langgraph>=0.0.20
