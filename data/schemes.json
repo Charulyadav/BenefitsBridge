@@ -1,0 +1,2283 @@
+{
+  "schemes": [
+    {
+      "id": "snap-federal",
+      "name": "SNAP (Supplemental Nutrition Assistance Program)",
+      "short_name": "SNAP / Food Stamps",
+      "description": "Provides monthly benefits on an EBT card to buy groceries for low-income households.",
+      "category": "nutrition",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 130,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "max_assets": 2750
+      },
+      "apply_url": "https://www.fns.usda.gov/snap/apply",
+      "apply_phone": "1-800-221-5689",
+      "customer_care": {
+        "phone": "1-800-221-5689",
+        "hours": "Mon-Fri 7AM-10PM EST",
+        "website": "https://www.fns.usda.gov/snap",
+        "notes": "Dial 2-1-1 for local SNAP office referrals."
+      },
+      "next_steps": [
+        "Find your local SNAP office at fns.usda.gov/snap/apply",
+        "Gather income and identity documents",
+        "Complete application online or in-person",
+        "Attend eligibility interview (phone or in-person)",
+        "Receive EBT card within 30 days if approved"
+      ],
+      "documents_needed": [
+        "Photo ID (driver's license, passport, or state ID)",
+        "Proof of income (pay stubs, tax returns, employer letter)",
+        "Proof of residence (utility bill, lease, mortgage statement)",
+        "Social Security numbers for all household members",
+        "Bank statements (checking and savings)",
+        "Proof of citizenship or immigration status"
+      ],
+      "processing_time": "30 days (7 days expedited if income is extremely low)",
+      "benefit_amount": "$234/month average per person (up to $1,751/month for family of 8)",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "food",
+        "nutrition",
+        "ebt",
+        "groceries"
+      ]
+    },
+    {
+      "id": "wic-federal",
+      "name": "WIC (Women, Infants, and Children)",
+      "short_name": "WIC",
+      "description": "Nutrition program providing healthy food, nutrition education, and breastfeeding support for pregnant women, new mothers, infants, and children under 5.",
+      "category": "nutrition",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 185,
+        "requires_pregnancy": false,
+        "requires_children": false,
+        "max_child_age": 5,
+        "citizenship_required": false,
+        "custom_rules": "Must be pregnant, breastfeeding (up to 1 year), postpartum (up to 6 months), or have a child under 5. Applicants on Medicaid, SNAP, or TANF are automatically income-eligible."
+      },
+      "apply_url": "https://www.fns.usda.gov/wic/wic-how-apply",
+      "apply_phone": "1-800-942-3678",
+      "customer_care": {
+        "phone": "1-800-942-3678",
+        "hours": "Mon-Fri 8AM-5PM local time",
+        "website": "https://www.fns.usda.gov/wic",
+        "notes": "Walk-ins often accepted at WIC clinics."
+      },
+      "next_steps": [
+        "Find your local WIC clinic at fns.usda.gov/wic",
+        "Schedule an appointment or walk in",
+        "Bring required documents",
+        "Complete nutrition assessment",
+        "Receive WIC card same day if eligible"
+      ],
+      "documents_needed": [
+        "Proof of identity (ID for you, birth certificate for child)",
+        "Proof of income (pay stubs, tax return, or benefit enrollment letter)",
+        "Proof of address (utility bill, lease, or mail with address)",
+        "Proof of pregnancy or child's birth certificate",
+        "Immunization records for children"
+      ],
+      "processing_time": "Same day to 2 weeks",
+      "benefit_amount": "Monthly food packages worth $50-$75 + nutrition education",
+      "benefit_type": "WIC Card/Vouchers",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "food",
+        "nutrition",
+        "pregnancy",
+        "children",
+        "breastfeeding"
+      ]
+    },
+    {
+      "id": "medicaid-federal",
+      "name": "Medicaid",
+      "short_name": "Medicaid",
+      "description": "Free or low-cost comprehensive health coverage including doctor visits, hospital stays, prescriptions, preventive care, and mental health services.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Income limits vary by state. Expansion states cover adults up to 138% FPL. Pregnant women covered up to 200% FPL in many states."
+      },
+      "apply_url": "https://www.healthcare.gov/medicaid-chip/",
+      "apply_phone": "1-800-318-2596",
+      "customer_care": {
+        "phone": "1-800-318-2596 (Healthcare.gov)",
+        "hours": "24/7",
+        "website": "https://www.healthcare.gov/medicaid-chip/",
+        "notes": "TTY: 1-855-889-4325. Apply at Healthcare.gov or your state Medicaid website."
+      },
+      "next_steps": [
+        "Check your state's Medicaid website for specific income limits",
+        "Apply online at Healthcare.gov or state portal",
+        "Provide income verification documents",
+        "Receive eligibility determination within 45 days",
+        "Select a health plan and primary care provider"
+      ],
+      "documents_needed": [
+        "Social Security number",
+        "Proof of citizenship or lawful immigration status",
+        "Proof of income (pay stubs, W-2, tax return)",
+        "Proof of state residence",
+        "Proof of age (birth certificate or ID)"
+      ],
+      "processing_time": "45 days (90 days for disability-based)",
+      "benefit_amount": "Full health coverage with $0-$4 copays",
+      "benefit_type": "Health Insurance Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-20",
+      "tags": [
+        "health",
+        "insurance",
+        "medical"
+      ]
+    },
+    {
+      "id": "chip-federal",
+      "name": "CHIP (Children's Health Insurance Program)",
+      "short_name": "CHIP",
+      "description": "Low-cost health coverage for children and teens under 19 in families that earn too much for Medicaid but cannot afford private insurance.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 250,
+        "requires_children": true,
+        "max_child_age": 19,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Income limits vary by state, typically 200-300% FPL."
+      },
+      "apply_url": "https://www.healthcare.gov/medicaid-chip/childrens-health-insurance-program/",
+      "apply_phone": "1-877-543-7669",
+      "customer_care": {
+        "phone": "1-877-543-7669 (1-877-KIDS-NOW)",
+        "hours": "24/7",
+        "website": "https://www.insurekidsnow.gov/",
+        "notes": "Call 1-877-KIDS-NOW to connect with your state's CHIP program."
+      },
+      "next_steps": [
+        "Call 1-877-KIDS-NOW to find your state's CHIP program",
+        "Apply online at Healthcare.gov or state portal",
+        "Provide children's info and family income",
+        "Submit income verification",
+        "Select a health plan"
+      ],
+      "documents_needed": [
+        "Children's Social Security numbers",
+        "Children's birth certificates",
+        "Proof of family income (pay stubs, W-2, tax return)",
+        "Proof of state residence",
+        "Current health insurance information (if any)"
+      ],
+      "processing_time": "30-45 days",
+      "benefit_amount": "Comprehensive health coverage; premiums $0-$50/month per family",
+      "benefit_type": "Health Insurance Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-20",
+      "tags": [
+        "health",
+        "children",
+        "insurance"
+      ]
+    },
+    {
+      "id": "tanf-federal",
+      "name": "TANF (Temporary Assistance for Needy Families)",
+      "short_name": "TANF / Cash Assistance",
+      "description": "Cash assistance and support services for low-income families with children. Helps cover rent, utilities, clothing, and personal items.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 100,
+        "requires_children": true,
+        "max_child_age": 18,
+        "citizenship_required": true,
+        "requires_employment": false,
+        "custom_rules": "Work requirements apply. Time-limited (60 months lifetime). Pregnant women with no children may qualify."
+      },
+      "apply_url": "https://www.acf.hhs.gov/ofa/programs/tanf",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Dial 2-1-1 for local office",
+        "hours": "Mon-Fri 8AM-5PM local time",
+        "website": "https://www.acf.hhs.gov/ofa/programs/tanf",
+        "notes": "Each state administers TANF differently. Dial 2-1-1 for local help."
+      },
+      "next_steps": [
+        "Contact your local TANF/welfare office (dial 2-1-1)",
+        "Complete application and attend interview",
+        "Provide all required documentation",
+        "Create work participation plan",
+        "Report income changes monthly"
+      ],
+      "documents_needed": [
+        "Photo ID and Social Security cards for all household members",
+        "Birth certificates for all children",
+        "Proof of income (pay stubs or zero-income statement)",
+        "Proof of residence (utility bill, lease)",
+        "Bank statements for last 3 months",
+        "Proof of child support (if any)"
+      ],
+      "processing_time": "30-45 days",
+      "benefit_amount": "Varies by state ($200-$700/month for family of 3)",
+      "benefit_type": "Direct Deposit or EBT Cash Benefits",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "cash",
+        "families",
+        "children"
+      ]
+    },
+    {
+      "id": "section8-federal",
+      "name": "Section 8 Housing Choice Voucher",
+      "short_name": "Section 8",
+      "description": "Rental assistance vouchers to help low-income families, elderly, and disabled afford housing. You pay ~30% of income, voucher covers the rest.",
+      "category": "housing",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Based on Area Median Income. Priority for veterans, disabled, elderly, and families with children. Waitlists can be long."
+      },
+      "apply_url": "https://www.hud.gov/topics/housing_choice_voucher_program_section_8",
+      "apply_phone": "1-800-955-2232",
+      "customer_care": {
+        "phone": "1-800-955-2232 (HUD)",
+        "hours": "Mon-Fri 9AM-5PM EST",
+        "website": "https://www.hud.gov/program_offices/public_indian_housing/pha/contacts",
+        "notes": "Contact your local Public Housing Authority (PHA)."
+      },
+      "next_steps": [
+        "Find your local PHA at hud.gov",
+        "Check if waitlist is open",
+        "Submit application when available",
+        "Wait for selection from waitlist",
+        "Find approved housing within 60-120 days of receiving voucher"
+      ],
+      "documents_needed": [
+        "Photo ID for all adult household members",
+        "Social Security cards for all household members",
+        "Birth certificates for all members",
+        "Income verification (pay stubs, tax returns)",
+        "Current landlord references",
+        "Background check authorization"
+      ],
+      "processing_time": "Waitlist varies (months to years)",
+      "benefit_amount": "Pays portion of rent (you pay ~30% of income)",
+      "benefit_type": "Voucher \u2014 payment to landlord",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "housing",
+        "rent",
+        "voucher"
+      ]
+    },
+    {
+      "id": "liheap-federal",
+      "name": "LIHEAP (Low Income Home Energy Assistance)",
+      "short_name": "LIHEAP",
+      "description": "Helps low-income households pay heating and cooling bills. Provides one-time payments and crisis assistance for utility shutoffs.",
+      "category": "utilities",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 150,
+        "citizenship_required": true,
+        "legal_resident_ok": true
+      },
+      "apply_url": "https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap",
+      "apply_phone": "1-866-674-6327",
+      "customer_care": {
+        "phone": "1-866-674-6327 (LIHEAP Hotline)",
+        "hours": "Mon-Fri 8AM-6PM EST",
+        "website": "https://liheapch.acf.hhs.gov/",
+        "notes": "Crisis assistance available if you have a shutoff notice."
+      },
+      "next_steps": [
+        "Contact your state LIHEAP office (call 2-1-1)",
+        "Apply during open enrollment period",
+        "Provide utility bills and income proof",
+        "Receive payment directly to utility company"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Social Security card",
+        "Recent utility bills (last 2-3 months)",
+        "Proof of income for all household members",
+        "Proof of residence",
+        "Shutoff notice (for crisis assistance)"
+      ],
+      "processing_time": "2-4 weeks (crisis may be faster)",
+      "benefit_amount": "$200-$1,000+ (varies by state and need)",
+      "benefit_type": "Direct payment to utility company",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "utilities",
+        "energy",
+        "heating",
+        "cooling"
+      ]
+    },
+    {
+      "id": "pell-grant-federal",
+      "name": "Federal Pell Grant",
+      "short_name": "Pell Grant",
+      "description": "Federal grant for undergraduate students with financial need. Unlike loans, grants do not have to be repaid. Covers tuition, fees, room, and board.",
+      "category": "education",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 400,
+        "requires_student_status": false,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Based on Student Aid Index from FAFSA. Must be undergraduate. No prior bachelor's degree. Can apply while planning to enroll."
+      },
+      "apply_url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "apply_phone": "1-800-433-3243",
+      "customer_care": {
+        "phone": "1-800-433-3243 (Federal Student Aid)",
+        "hours": "Mon-Fri 8AM-11PM EST, Sat-Sun 11AM-5PM EST",
+        "website": "https://studentaid.gov/",
+        "notes": "Create an FSA ID at studentaid.gov first. FAFSA opens October 1 each year."
+      },
+      "next_steps": [
+        "Create an FSA ID at studentaid.gov",
+        "Complete FAFSA at studentaid.gov/fafsa",
+        "List schools you are interested in",
+        "Review your Student Aid Report",
+        "Accept the grant through your school"
+      ],
+      "documents_needed": [
+        "Social Security number",
+        "Federal tax returns (yours and parents' if dependent)",
+        "W-2 forms and other income records",
+        "Bank and investment statements",
+        "FSA ID (username and password)"
+      ],
+      "processing_time": "3-5 days for FAFSA processing",
+      "benefit_amount": "Up to $7,395/year (2024-25)",
+      "benefit_type": "Applied to tuition or refunded to student",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-20",
+      "tags": [
+        "education",
+        "college",
+        "grant",
+        "tuition"
+      ]
+    },
+    {
+      "id": "ccdf-federal",
+      "name": "Child Care Subsidies (CCDF)",
+      "short_name": "Childcare Assistance",
+      "description": "Helps low-income families afford childcare while parents work, attend school, or participate in job training.",
+      "category": "childcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 250,
+        "requires_children": true,
+        "max_child_age": 13,
+        "requires_employment": false,
+        "custom_rules": "Must be working, in school, or in job training. Income limits vary by state. Children with disabilities may qualify up to age 19."
+      },
+      "apply_url": "https://www.childcare.gov/consumer-education/get-help-paying-for-child-care",
+      "apply_phone": "1-800-616-2242",
+      "customer_care": {
+        "phone": "1-800-616-2242 (Child Care Aware)",
+        "hours": "Mon-Fri 9AM-6PM EST",
+        "website": "https://www.childcare.gov/",
+        "notes": "Dial 2-1-1 for local childcare resource and referral."
+      },
+      "next_steps": [
+        "Contact local childcare resource agency",
+        "Complete childcare assistance application",
+        "Provide income and employment verification",
+        "Select an approved childcare provider",
+        "Report income changes"
+      ],
+      "documents_needed": [
+        "Photo ID and Social Security cards",
+        "Children's birth certificates",
+        "Proof of employment, school enrollment, or job training",
+        "Income verification (pay stubs, tax returns)",
+        "Proof of residence",
+        "Children's immunization records"
+      ],
+      "processing_time": "2-4 weeks",
+      "benefit_amount": "Covers 75-100% of childcare costs depending on income",
+      "benefit_type": "Payment to childcare provider",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-15",
+      "tags": [
+        "childcare",
+        "children",
+        "working parents",
+        "daycare"
+      ]
+    },
+    {
+      "id": "wioa-federal",
+      "name": "WIOA Job Training",
+      "short_name": "WIOA Training",
+      "description": "Free job training, career counseling, and employment services for unemployed and underemployed adults through American Job Centers.",
+      "category": "employment",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Priority for public assistance recipients and low-income individuals. Veterans receive priority of service."
+      },
+      "apply_url": "https://www.careeronestop.org/",
+      "apply_phone": "1-877-348-0502",
+      "customer_care": {
+        "phone": "1-877-348-0502 (CareerOneStop)",
+        "hours": "Mon-Fri 8AM-8PM EST",
+        "website": "https://www.careeronestop.org/",
+        "notes": "Find your local American Job Center at careeronestop.org."
+      },
+      "next_steps": [
+        "Find your local American Job Center",
+        "Schedule initial assessment",
+        "Work with career counselor on a plan",
+        "Select approved training program",
+        "Complete training and get job placement help"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Social Security card",
+        "Proof of income",
+        "Proof of residence",
+        "Resume or work history",
+        "Selective Service registration (males 18-25)"
+      ],
+      "processing_time": "1-3 weeks for enrollment",
+      "benefit_amount": "Free training (value $5,000-$15,000+) plus possible stipends",
+      "benefit_type": "Training voucher + supportive services",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-20",
+      "tags": [
+        "employment",
+        "training",
+        "job",
+        "career"
+      ]
+    },
+    {
+      "id": "sba-women-federal",
+      "name": "SBA Women's Business Programs",
+      "short_name": "SBA Women's Programs",
+      "description": "Small Business Administration programs for women entrepreneurs including grants, loans, mentoring, and federal contracting opportunities.",
+      "category": "employment",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Open to all women interested in starting or growing a small business. Free counseling through Women's Business Centers."
+      },
+      "apply_url": "https://www.sba.gov/business-guide/grow-your-business/women-owned-businesses",
+      "apply_phone": "1-800-827-5722",
+      "customer_care": {
+        "phone": "1-800-827-5722 (SBA Answer Desk)",
+        "hours": "Mon-Fri 9AM-5PM EST",
+        "website": "https://www.sba.gov/local-assistance",
+        "notes": "Find your local Women's Business Center at sba.gov/local-assistance."
+      },
+      "next_steps": [
+        "Find your local Women's Business Center",
+        "Schedule a free counseling session",
+        "Develop a business plan with SBA mentor",
+        "Explore funding options",
+        "Register for women-owned business certification"
+      ],
+      "documents_needed": [
+        "Business plan (counselor can help)",
+        "Personal financial statements",
+        "Tax returns",
+        "Business registration documents (if applicable)",
+        "Photo ID"
+      ],
+      "processing_time": "Varies by program",
+      "benefit_amount": "Free counseling + access to grants and low-interest loans",
+      "benefit_type": "Counseling, grants, and loan access",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-01-20",
+      "tags": [
+        "business",
+        "women",
+        "entrepreneur",
+        "grants"
+      ]
+    },
+    {
+      "id": "lifeline-federal",
+      "name": "Lifeline Phone/Internet Discount",
+      "short_name": "Lifeline",
+      "description": "FCC program providing a monthly discount on phone or internet service for low-income households.",
+      "category": "utilities",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 135,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "Automatically eligible if on Medicaid, SNAP, SSI, Federal Public Housing, Veterans Pension, or Tribal programs."
+      },
+      "apply_url": "https://www.lifelinesupport.org/",
+      "apply_phone": "1-800-234-9473",
+      "customer_care": {
+        "phone": "1-800-234-9473",
+        "hours": "Mon-Fri 9AM-9PM EST",
+        "website": "https://www.lifelinesupport.org/",
+        "notes": "Apply online or through your phone/internet provider."
+      },
+      "next_steps": [
+        "Check eligibility at lifelinesupport.org",
+        "Apply online or through your provider",
+        "Provide proof of enrollment or income",
+        "Select a Lifeline provider",
+        "Recertify annually"
+      ],
+      "documents_needed": [
+        "Proof of program enrollment (SNAP, Medicaid, SSI letter) OR proof of income",
+        "Photo ID",
+        "Proof of address"
+      ],
+      "processing_time": "1-2 weeks",
+      "benefit_amount": "$9.25/month discount on phone or internet",
+      "benefit_type": "Monthly discount on bill",
+      "is_active": true,
+      "priority_score": 6,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "phone",
+        "internet",
+        "utilities"
+      ]
+    },
+    {
+      "id": "eitc-federal",
+      "name": "Earned Income Tax Credit (EITC)",
+      "short_name": "EITC",
+      "description": "Tax credit for low-to-moderate income workers. Reduces taxes owed and may result in a refund even if you owe no taxes.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 400,
+        "requires_employment": true,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Must have earned income. Limits: ~$59,000 with 3+ children, ~$17,640 with no children. Investment income must be below $11,000."
+      },
+      "apply_url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+      "apply_phone": "1-800-829-1040",
+      "customer_care": {
+        "phone": "1-800-829-1040 (IRS)",
+        "hours": "Mon-Fri 7AM-7PM local time",
+        "website": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+        "notes": "Free tax filing help at VITA sites: irs.gov/vita"
+      },
+      "next_steps": [
+        "Use IRS EITC Assistant tool to check eligibility",
+        "Gather tax documents",
+        "File federal tax return claiming EITC",
+        "Find free tax help at a VITA site",
+        "Receive refund within 21 days of e-filing"
+      ],
+      "documents_needed": [
+        "W-2 forms from all employers",
+        "Social Security cards for you, spouse, and children",
+        "Birth dates for all household members",
+        "Bank account info for direct deposit",
+        "Childcare provider info (if applicable)"
+      ],
+      "processing_time": "Refund within 21 days of e-filing",
+      "benefit_amount": "Up to $7,430 with 3+ children (2024)",
+      "benefit_type": "Tax refund / credit",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "tax",
+        "credit",
+        "refund",
+        "financial"
+      ]
+    },
+    {
+      "id": "ssi-federal",
+      "name": "Supplemental Security Income (SSI)",
+      "short_name": "SSI",
+      "description": "Monthly cash payments for people with disabilities, blind individuals, and seniors (65+) with very limited income and resources.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 100,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "max_assets": 2000,
+        "custom_rules": "Must be disabled, blind, or age 65+. Resource limit $2,000 individual / $3,000 couple."
+      },
+      "apply_url": "https://www.ssa.gov/ssi/",
+      "apply_phone": "1-800-772-1213",
+      "customer_care": {
+        "phone": "1-800-772-1213 (Social Security)",
+        "hours": "Mon-Fri 8AM-7PM local time",
+        "website": "https://www.ssa.gov/ssi/",
+        "notes": "TTY: 1-800-325-0778. Apply at local Social Security office."
+      },
+      "next_steps": [
+        "Call Social Security at 1-800-772-1213",
+        "Schedule appointment at local office",
+        "Gather medical records",
+        "Complete application",
+        "Attend medical evaluation if requested"
+      ],
+      "documents_needed": [
+        "Social Security card",
+        "Birth certificate or proof of age",
+        "Medical records and doctor contact info",
+        "Proof of income and resources",
+        "Proof of living arrangement",
+        "Proof of citizenship or immigration status"
+      ],
+      "processing_time": "3-6 months",
+      "benefit_amount": "Up to $943/month individual (2024)",
+      "benefit_type": "Monthly direct deposit or check",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "disability",
+        "elderly",
+        "cash"
+      ]
+    },
+    {
+      "id": "head-start-federal",
+      "name": "Head Start / Early Head Start",
+      "short_name": "Head Start",
+      "description": "Free early childhood education, health, nutrition, and family support services for children birth to age 5 and pregnant women.",
+      "category": "childcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 100,
+        "requires_children": true,
+        "max_child_age": 5,
+        "citizenship_required": false,
+        "custom_rules": "Priority for families below 100% FPL, homeless families, foster children, and those on public assistance. Early Head Start serves pregnant women and children 0-3."
+      },
+      "apply_url": "https://www.acf.hhs.gov/ohs",
+      "apply_phone": "1-866-763-6481",
+      "customer_care": {
+        "phone": "1-866-763-6481",
+        "hours": "Mon-Fri 8AM-6PM EST",
+        "website": "https://eclkc.ohs.acf.hhs.gov/center-locator",
+        "notes": "Find a program near you at eclkc.ohs.acf.hhs.gov/center-locator"
+      },
+      "next_steps": [
+        "Find a Head Start program near you",
+        "Contact the program to check availability",
+        "Complete enrollment application",
+        "Attend family intake meeting",
+        "Provide health and developmental screening records"
+      ],
+      "documents_needed": [
+        "Child's birth certificate",
+        "Proof of income",
+        "Child's immunization records",
+        "Health insurance information (if any)",
+        "Proof of address"
+      ],
+      "processing_time": "Enrollment typically seasonal (fall) but some accept year-round",
+      "benefit_amount": "Free preschool + meals + health screenings + family services",
+      "benefit_type": "Free services",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "education",
+        "childcare",
+        "preschool"
+      ]
+    },
+    {
+      "id": "school-lunch-federal",
+      "name": "Free School Meals (Lunch & Breakfast)",
+      "short_name": "Free School Meals",
+      "description": "Free or reduced-price breakfast and lunch for children at school. Available at most public schools.",
+      "category": "nutrition",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 185,
+        "requires_children": true,
+        "max_child_age": 18,
+        "citizenship_required": false,
+        "custom_rules": "Free meals at 130% FPL or below. Reduced-price at 131-185% FPL. SNAP/TANF/Head Start households auto-qualify."
+      },
+      "apply_url": "https://www.fns.usda.gov/nslp",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Contact your child's school directly",
+        "hours": "School office hours",
+        "website": "https://www.fns.usda.gov/nslp",
+        "notes": "One application per household covers all children in the school."
+      },
+      "next_steps": [
+        "Contact your child's school office",
+        "Complete the free/reduced meal application",
+        "Submit to the school",
+        "Receive determination within 10 school days"
+      ],
+      "documents_needed": [
+        "Names of all household members",
+        "Income info for all household members",
+        "SNAP/TANF case number (if applicable \u2014 auto approval)",
+        "Last 4 digits of SSN of adult signer"
+      ],
+      "processing_time": "10 school days",
+      "benefit_amount": "Free breakfast and lunch daily during school year",
+      "benefit_type": "Free meals at school",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "children",
+        "school"
+      ]
+    },
+    {
+      "id": "vash-federal",
+      "name": "HUD-VASH (Veterans Housing)",
+      "short_name": "HUD-VASH",
+      "description": "Housing vouchers combined with VA supportive services for homeless veterans.",
+      "category": "housing",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "requires_veteran_status": true,
+        "citizenship_required": true,
+        "homeless_priority": true,
+        "custom_rules": "Must be a homeless veteran or at imminent risk. Priority for chronically homeless."
+      },
+      "apply_url": "https://www.va.gov/homeless/hud-vash.asp",
+      "apply_phone": "1-877-424-3838",
+      "customer_care": {
+        "phone": "1-877-424-3838 (VA Homeless Veterans Hotline)",
+        "hours": "24/7",
+        "website": "https://www.va.gov/homeless/",
+        "notes": "Veterans Crisis Line: 988 (press 1)."
+      },
+      "next_steps": [
+        "Call the VA Homeless Veterans Hotline",
+        "Visit your local VA Medical Center",
+        "Complete HUD-VASH assessment",
+        "Receive housing voucher and case management",
+        "Find approved housing with VA assistance"
+      ],
+      "documents_needed": [
+        "DD-214 or military service records",
+        "Photo ID",
+        "Social Security card",
+        "Proof of homelessness or risk",
+        "Income verification"
+      ],
+      "processing_time": "2-8 weeks after referral",
+      "benefit_amount": "Rental voucher + VA case management",
+      "benefit_type": "Housing voucher + VA services",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "veterans",
+        "housing",
+        "homeless"
+      ]
+    },
+    {
+      "id": "va-healthcare-federal",
+      "name": "VA Health Care",
+      "short_name": "VA Health Care",
+      "description": "Comprehensive health care for eligible veterans including primary care, specialty care, mental health, and prescriptions.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "requires_veteran_status": true,
+        "citizenship_required": true,
+        "custom_rules": "Based on veteran status, service-connected disabilities, and income. Most veterans who served honorably are eligible."
+      },
+      "apply_url": "https://www.va.gov/health-care/apply/application/introduction",
+      "apply_phone": "1-877-222-8387",
+      "customer_care": {
+        "phone": "1-877-222-8387 (VA Health Benefits)",
+        "hours": "Mon-Fri 8AM-8PM EST",
+        "website": "https://www.va.gov/health-care/",
+        "notes": "Apply online, by phone, or at any VA medical center. Veterans Crisis Line: 988 (press 1)."
+      },
+      "next_steps": [
+        "Apply online at va.gov/health-care/apply",
+        "Or visit nearest VA medical center",
+        "Provide military service documents",
+        "Receive eligibility determination",
+        "Schedule first appointment"
+      ],
+      "documents_needed": [
+        "DD-214 (discharge papers)",
+        "Social Security number",
+        "Financial information",
+        "Insurance information (if any)",
+        "Military service history"
+      ],
+      "processing_time": "1-2 weeks for enrollment",
+      "benefit_amount": "Comprehensive health care; copays $0-$50",
+      "benefit_type": "VA Health Care enrollment",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "veterans",
+        "healthcare",
+        "VA"
+      ]
+    },
+    {
+      "id": "fvpsa-federal",
+      "name": "Domestic Violence Support Services (FVPSA)",
+      "short_name": "DV Support",
+      "description": "Emergency shelter, crisis hotline, counseling, and legal advocacy for domestic violence survivors. All services are free and confidential.",
+      "category": "housing",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "domestic_violence_priority": true,
+        "citizenship_required": false,
+        "custom_rules": "Available to ALL DV survivors regardless of income, citizenship, or immigration status."
+      },
+      "apply_url": "https://www.thehotline.org/",
+      "apply_phone": "1-800-799-7233",
+      "customer_care": {
+        "phone": "1-800-799-7233 (National DV Hotline)",
+        "hours": "24/7",
+        "website": "https://www.thehotline.org/",
+        "notes": "Text START to 88788. Chat at thehotline.org. All services confidential. TTY: 1-800-787-3224."
+      },
+      "next_steps": [
+        "Call National DV Hotline at 1-800-799-7233 (24/7)",
+        "Or text START to 88788",
+        "A trained advocate will help create a safety plan",
+        "Get connected to local shelter and services",
+        "Access legal advocacy and counseling"
+      ],
+      "documents_needed": [
+        "No documents required for emergency services",
+        "ID if available (not required)",
+        "Legal documents for protective orders (helpful but not required)"
+      ],
+      "processing_time": "Immediate assistance 24/7",
+      "benefit_amount": "Free emergency shelter + counseling + legal advocacy",
+      "benefit_type": "Free services",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "domestic violence",
+        "shelter",
+        "safety"
+      ]
+    },
+    {
+      "id": "medicaid-pregnant-federal",
+      "name": "Medicaid for Pregnant Women",
+      "short_name": "Pregnancy Medicaid",
+      "description": "Extended Medicaid with higher income limits for pregnant women. Covers prenatal care, delivery, and 12 months postpartum.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "requires_pregnancy": true,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "Higher income limits than regular Medicaid (185-200% FPL). Many states cover immigrants. Postpartum coverage extended to 12 months."
+      },
+      "apply_url": "https://www.healthcare.gov/medicaid-chip/",
+      "apply_phone": "1-800-318-2596",
+      "customer_care": {
+        "phone": "1-800-318-2596",
+        "hours": "24/7",
+        "website": "https://www.healthcare.gov/medicaid-chip/",
+        "notes": "Presumptive eligibility may provide immediate temporary coverage."
+      },
+      "next_steps": [
+        "Apply at Healthcare.gov or state Medicaid portal",
+        "Provide proof of pregnancy from doctor",
+        "Submit income verification",
+        "Receive expedited determination",
+        "Begin prenatal care immediately"
+      ],
+      "documents_needed": [
+        "Proof of pregnancy (doctor's statement)",
+        "Proof of income",
+        "Proof of state residence",
+        "Social Security number (if available)",
+        "Immigration documents (if applicable)"
+      ],
+      "processing_time": "Expedited \u2014 often same day presumptive eligibility",
+      "benefit_amount": "Full coverage: prenatal, delivery, 12 months postpartum",
+      "benefit_type": "Health Insurance Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "pregnancy",
+        "healthcare",
+        "prenatal"
+      ]
+    },
+    {
+      "id": "emergency-rental-federal",
+      "name": "Emergency Rental Assistance",
+      "short_name": "Emergency Rent Help",
+      "description": "Helps renters behind on rent or at risk of eviction. Covers past-due rent, future rent, and utility arrears.",
+      "category": "housing",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "Must be a renter at risk of eviction. Priority for very low income and unemployed 90+ days."
+      },
+      "apply_url": "https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Dial 2-1-1 for local assistance",
+        "hours": "24/7 (211 hotline)",
+        "website": "https://home.treasury.gov/",
+        "notes": "Programs administered locally. Dial 2-1-1 to find your program."
+      },
+      "next_steps": [
+        "Dial 2-1-1 for local emergency rental program",
+        "Complete application with landlord",
+        "Provide proof of hardship and income",
+        "Payments go directly to landlord/utility company"
+      ],
+      "documents_needed": [
+        "Lease agreement",
+        "Past-due rent or eviction notices",
+        "Proof of income loss or hardship",
+        "Income documentation",
+        "Photo ID",
+        "Landlord's W-9 and contact info"
+      ],
+      "processing_time": "1-4 weeks",
+      "benefit_amount": "Up to 12-18 months of rent and utility assistance",
+      "benefit_type": "Payment to landlord/utility company",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "housing",
+        "rent",
+        "eviction",
+        "emergency"
+      ]
+    },
+    {
+      "id": "weatherization-federal",
+      "name": "Weatherization Assistance Program",
+      "short_name": "Weatherization",
+      "description": "Free home energy efficiency improvements including insulation, air sealing, and heating/cooling system repair.",
+      "category": "utilities",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Priority for elderly (60+), disabled, and families with young children. Auto-eligible if on SSI, SNAP, or TANF."
+      },
+      "apply_url": "https://www.energy.gov/scep/wap/weatherization-assistance-program",
+      "apply_phone": "1-866-674-6327",
+      "customer_care": {
+        "phone": "1-866-674-6327",
+        "hours": "Mon-Fri 8AM-6PM EST",
+        "website": "https://www.energy.gov/scep/wap/weatherization-assistance-program",
+        "notes": "Contact your state agency or dial 2-1-1."
+      },
+      "next_steps": [
+        "Contact local weatherization agency (dial 2-1-1)",
+        "Complete application",
+        "Schedule home energy audit",
+        "Receive free improvements"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Proof of income or public assistance enrollment",
+        "Recent energy bills",
+        "Proof of homeownership or landlord approval"
+      ],
+      "processing_time": "Varies; work completed in 1-2 weeks once selected",
+      "benefit_amount": "Average $7,500 in home improvements",
+      "benefit_type": "Free home improvements",
+      "is_active": true,
+      "priority_score": 6,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "utilities",
+        "energy",
+        "weatherization"
+      ]
+    },
+    {
+      "id": "tx-snap",
+      "name": "Texas SNAP (Lone Star Card)",
+      "short_name": "TX SNAP",
+      "description": "Texas food assistance via the Lone Star Card. Apply at YourTexasBenefits.com.",
+      "category": "nutrition",
+      "level": "state",
+      "state": "TX",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 165,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Texas BBCE with 165% FPL gross income limit. Net income at or below 100% FPL."
+      },
+      "apply_url": "https://www.yourtexasbenefits.com/",
+      "apply_phone": "2-1-1",
+      "customer_care": {
+        "phone": "2-1-1",
+        "hours": "24/7",
+        "website": "https://www.yourtexasbenefits.com/",
+        "notes": "Apply for SNAP, Medicaid, and TANF at once."
+      },
+      "next_steps": [
+        "Apply online at YourTexasBenefits.com",
+        "Or call 2-1-1",
+        "Complete eligibility interview",
+        "Receive Lone Star Card"
+      ],
+      "documents_needed": [
+        "Texas ID",
+        "Social Security cards",
+        "Proof of income",
+        "Proof of Texas residence"
+      ],
+      "processing_time": "30 days (7 days expedited)",
+      "benefit_amount": "$234/month average per person",
+      "benefit_type": "Lone Star Card (EBT)",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@texas.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "texas"
+      ]
+    },
+    {
+      "id": "tx-medicaid",
+      "name": "Texas Medicaid",
+      "short_name": "TX Medicaid",
+      "description": "Texas Medicaid for children, pregnant women, elderly, and disabled. Texas has not expanded Medicaid to all adults.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "TX",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Texas has NOT expanded Medicaid. Children up to 200% FPL. Pregnant women up to 198% FPL."
+      },
+      "apply_url": "https://www.yourtexasbenefits.com/",
+      "apply_phone": "1-800-647-6558",
+      "customer_care": {
+        "phone": "1-800-647-6558",
+        "hours": "Mon-Fri 7AM-7PM CST",
+        "website": "https://www.yourtexasbenefits.com/",
+        "notes": "Apply at YourTexasBenefits.com."
+      },
+      "next_steps": [
+        "Apply at YourTexasBenefits.com",
+        "Or call 1-800-647-6558",
+        "Provide income info",
+        "Choose a health plan"
+      ],
+      "documents_needed": [
+        "Social Security numbers",
+        "Proof of Texas residence",
+        "Proof of income",
+        "Proof of citizenship"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Full health coverage",
+      "benefit_type": "Medicaid Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@texas.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "texas"
+      ]
+    },
+    {
+      "id": "tx-chip",
+      "name": "Texas CHIP",
+      "short_name": "TX CHIP",
+      "description": "Health insurance for Texas children under 19 whose families earn too much for Medicaid.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "TX",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "requires_children": true,
+        "max_child_age": 19,
+        "citizenship_required": true,
+        "legal_resident_ok": true
+      },
+      "apply_url": "https://www.yourtexasbenefits.com/Learn/CHIP",
+      "apply_phone": "1-800-647-6558",
+      "customer_care": {
+        "phone": "1-800-647-6558",
+        "hours": "Mon-Fri 7AM-7PM CST",
+        "website": "https://www.chipmedicaid.org/",
+        "notes": "Apply at YourTexasBenefits.com."
+      },
+      "next_steps": [
+        "Apply at YourTexasBenefits.com",
+        "Provide documentation",
+        "Select a health plan",
+        "Pay first premium ($0-$50/year)"
+      ],
+      "documents_needed": [
+        "Children's SSN",
+        "Proof of Texas residency",
+        "Proof of income"
+      ],
+      "processing_time": "2-4 weeks",
+      "benefit_amount": "Comprehensive children's health coverage",
+      "benefit_type": "Health Insurance Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@texas.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "children",
+        "texas"
+      ]
+    },
+    {
+      "id": "tx-tanf",
+      "name": "Texas TANF",
+      "short_name": "TX TANF",
+      "description": "Texas cash assistance for very low-income families with children.",
+      "category": "financial",
+      "level": "state",
+      "state": "TX",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 50,
+        "requires_children": true,
+        "max_child_age": 18,
+        "citizenship_required": true,
+        "custom_rules": "Very strict. 12-month limit for single parents."
+      },
+      "apply_url": "https://www.yourtexasbenefits.com/",
+      "apply_phone": "2-1-1",
+      "customer_care": {
+        "phone": "2-1-1",
+        "hours": "24/7",
+        "website": "https://www.yourtexasbenefits.com/",
+        "notes": "Shorter time limits than federal max."
+      },
+      "next_steps": [
+        "Apply at YourTexasBenefits.com",
+        "Complete interview",
+        "Participate in workforce orientation"
+      ],
+      "documents_needed": [
+        "Texas ID",
+        "SSN cards",
+        "Children's birth certificates",
+        "Proof of income",
+        "Proof of residence",
+        "Bank statements"
+      ],
+      "processing_time": "30 days",
+      "benefit_amount": "$208/month for family of 2, $284/month for family of 3",
+      "benefit_type": "EBT Cash",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "admin@texas.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "cash",
+        "texas"
+      ]
+    },
+    {
+      "id": "tx-workforce-childcare",
+      "name": "Texas Workforce Childcare Services",
+      "short_name": "TX Childcare",
+      "description": "Subsidized childcare for working and student Texas families.",
+      "category": "childcare",
+      "level": "state",
+      "state": "TX",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 150,
+        "requires_children": true,
+        "max_child_age": 13,
+        "requires_employment": false,
+        "custom_rules": "Must be working, in training, or in school."
+      },
+      "apply_url": "https://www.twc.texas.gov/programs/childcare",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Dial 2-1-1",
+        "hours": "24/7",
+        "website": "https://www.twc.texas.gov/programs/childcare",
+        "notes": "Contact local Workforce Solutions."
+      },
+      "next_steps": [
+        "Contact local Workforce Solutions",
+        "Complete application",
+        "Provide employment verification",
+        "Choose provider"
+      ],
+      "documents_needed": [
+        "Photo ID and SSN cards",
+        "Proof of employment or enrollment",
+        "Income verification",
+        "Immunization records",
+        "Proof of residence"
+      ],
+      "processing_time": "2-3 weeks",
+      "benefit_amount": "Covers most childcare costs",
+      "benefit_type": "Payment to provider",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@texas.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "childcare",
+        "texas"
+      ]
+    },
+    {
+      "id": "harris-county-childcare",
+      "name": "Harris County Childcare Assistance",
+      "short_name": "Harris Childcare",
+      "description": "Additional childcare support for Harris County residents.",
+      "category": "childcare",
+      "level": "county",
+      "state": "TX",
+      "county": "Harris County",
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 150,
+        "requires_children": true,
+        "max_child_age": 12,
+        "requires_employment": false,
+        "domestic_violence_priority": true
+      },
+      "apply_url": "https://www.harriscountytx.gov/childcare",
+      "apply_phone": "713-696-0100",
+      "customer_care": {
+        "phone": "713-696-0100",
+        "hours": "Mon-Fri 8AM-5PM CST",
+        "website": "https://www.harriscountytx.gov",
+        "notes": "Contact Harris County Social Services."
+      },
+      "next_steps": [
+        "Call 713-696-0100",
+        "Complete application",
+        "Attend interview",
+        "Select provider"
+      ],
+      "documents_needed": [
+        "Texas ID",
+        "Employment verification",
+        "Immunization records",
+        "Proof of Harris County residence"
+      ],
+      "processing_time": "1-2 weeks",
+      "benefit_amount": "Covers co-pays and additional costs",
+      "benefit_type": "Additional subsidy",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "social.services@harriscountytx.gov",
+      "last_updated": "2024-02-20",
+      "tags": [
+        "childcare",
+        "harris county"
+      ]
+    },
+    {
+      "id": "ca-calfresh",
+      "name": "CalFresh (California SNAP)",
+      "short_name": "CalFresh",
+      "description": "California's food assistance with expanded eligibility including some college students.",
+      "category": "nutrition",
+      "level": "state",
+      "state": "CA",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "CA BBCE at 200% FPL."
+      },
+      "apply_url": "https://www.getcalfresh.org/",
+      "apply_phone": "1-877-847-3663",
+      "customer_care": {
+        "phone": "1-877-847-3663",
+        "hours": "Mon-Fri 8AM-5PM PST",
+        "website": "https://www.getcalfresh.org/",
+        "notes": "Fastest at GetCalFresh.org."
+      },
+      "next_steps": [
+        "Apply at GetCalFresh.org",
+        "Complete phone interview",
+        "Submit documents",
+        "Receive EBT card"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Proof of income",
+        "Proof of CA residence"
+      ],
+      "processing_time": "30 days (3 days expedited)",
+      "benefit_amount": "$234/month average",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@california.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "california"
+      ]
+    },
+    {
+      "id": "ca-medi-cal",
+      "name": "Medi-Cal (California Medicaid)",
+      "short_name": "Medi-Cal",
+      "description": "California's Medicaid \u2014 covers all income-eligible adults regardless of immigration status.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "CA",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "Covers undocumented adults. Pregnant women up to 213% FPL."
+      },
+      "apply_url": "https://www.coveredca.com/medi-cal/",
+      "apply_phone": "1-800-300-1506",
+      "customer_care": {
+        "phone": "1-800-300-1506",
+        "hours": "Mon-Fri 8AM-6PM PST",
+        "website": "https://www.coveredca.com/medi-cal/",
+        "notes": "Apply at CoveredCA.com."
+      },
+      "next_steps": [
+        "Apply at CoveredCA.com",
+        "Provide income verification",
+        "Select health plan",
+        "Receive Medi-Cal card"
+      ],
+      "documents_needed": [
+        "Proof of identity",
+        "Proof of CA residence",
+        "Proof of income"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Free comprehensive health, dental, and vision",
+      "benefit_type": "Medi-Cal Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@california.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "california"
+      ]
+    },
+    {
+      "id": "ca-calworks",
+      "name": "CalWORKs (California TANF)",
+      "short_name": "CalWORKs",
+      "description": "California cash aid for families with children, plus employment services and childcare.",
+      "category": "financial",
+      "level": "state",
+      "state": "CA",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 100,
+        "requires_children": true,
+        "max_child_age": 18,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Pregnant women may qualify. 48-month time limit."
+      },
+      "apply_url": "https://benefitscal.com/",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Dial 2-1-1",
+        "hours": "24/7",
+        "website": "https://benefitscal.com/",
+        "notes": "Apply at BenefitsCal.com."
+      },
+      "next_steps": [
+        "Apply at BenefitsCal.com",
+        "Complete interview",
+        "Begin welfare-to-work",
+        "Receive EBT cash card"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "SSN cards",
+        "Children's birth certificates",
+        "Proof of income",
+        "Proof of residence",
+        "Bank statements"
+      ],
+      "processing_time": "30-45 days",
+      "benefit_amount": "$878/month for family of 3 (2024)",
+      "benefit_type": "EBT Cash Card",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "admin@california.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "cash",
+        "california"
+      ]
+    },
+    {
+      "id": "ma-snap",
+      "name": "Massachusetts SNAP (DTA)",
+      "short_name": "MA SNAP",
+      "description": "Massachusetts food assistance with expanded eligibility at 200% FPL.",
+      "category": "nutrition",
+      "level": "state",
+      "state": "MA",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true
+      },
+      "apply_url": "https://dtaconnect.eohhs.mass.gov/",
+      "apply_phone": "1-877-382-2363",
+      "customer_care": {
+        "phone": "1-877-382-2363",
+        "hours": "Mon-Fri 8:15AM-4:45PM EST",
+        "website": "https://dtaconnect.eohhs.mass.gov/",
+        "notes": "Apply at DTAConnect.com."
+      },
+      "next_steps": [
+        "Apply at DTAConnect.com",
+        "Or visit local DTA office",
+        "Complete interview",
+        "Receive EBT card"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "SSN card",
+        "Proof of income",
+        "Proof of MA residence"
+      ],
+      "processing_time": "30 days (7 days expedited)",
+      "benefit_amount": "Varies by household",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@massachusetts.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "massachusetts"
+      ]
+    },
+    {
+      "id": "ma-masshealth",
+      "name": "MassHealth (Massachusetts Medicaid)",
+      "short_name": "MassHealth",
+      "description": "Massachusetts comprehensive health coverage \u2014 one of the most generous Medicaid programs in the US.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "MA",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "MA expanded Medicaid. Children up to 300% FPL, pregnant women up to 200% FPL."
+      },
+      "apply_url": "https://www.mahealthconnector.org/",
+      "apply_phone": "1-800-841-2900",
+      "customer_care": {
+        "phone": "1-800-841-2900",
+        "hours": "Mon-Fri 8AM-5PM EST",
+        "website": "https://www.mahealthconnector.org/",
+        "notes": "Apply at MAhealthconnector.org."
+      },
+      "next_steps": [
+        "Apply at MAhealthconnector.org",
+        "Or call 1-800-841-2900",
+        "Provide documentation",
+        "Select health plan"
+      ],
+      "documents_needed": [
+        "Proof of identity",
+        "Proof of MA residence",
+        "Proof of income",
+        "Immigration documents (if applicable)"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Free comprehensive health coverage",
+      "benefit_type": "MassHealth Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@massachusetts.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "massachusetts"
+      ]
+    },
+    {
+      "id": "ny-snap",
+      "name": "New York SNAP",
+      "short_name": "NY SNAP",
+      "description": "New York food assistance with expanded eligibility. Apply at myBenefits.ny.gov.",
+      "category": "nutrition",
+      "level": "state",
+      "state": "NY",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true
+      },
+      "apply_url": "https://mybenefits.ny.gov/",
+      "apply_phone": "1-800-342-3009",
+      "customer_care": {
+        "phone": "1-800-342-3009",
+        "hours": "Mon-Fri 8AM-5PM EST",
+        "website": "https://mybenefits.ny.gov/",
+        "notes": "Apply for SNAP, Medicaid, and TANF."
+      },
+      "next_steps": [
+        "Apply at myBenefits.ny.gov",
+        "Complete interview",
+        "Submit documents",
+        "Receive EBT card"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "SSN cards",
+        "Proof of income",
+        "Proof of NY residence"
+      ],
+      "processing_time": "30 days",
+      "benefit_amount": "Varies by household",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@newyork.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "new york"
+      ]
+    },
+    {
+      "id": "ny-medicaid",
+      "name": "New York Medicaid",
+      "short_name": "NY Medicaid",
+      "description": "New York's expanded Medicaid with comprehensive health, dental, and vision coverage.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "NY",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "NY expanded Medicaid. Children up to 400% FPL, pregnant women up to 223% FPL."
+      },
+      "apply_url": "https://nystateofhealth.ny.gov/",
+      "apply_phone": "1-855-355-5777",
+      "customer_care": {
+        "phone": "1-855-355-5777",
+        "hours": "Mon-Fri 8AM-8PM EST",
+        "website": "https://nystateofhealth.ny.gov/",
+        "notes": "Includes dental and vision."
+      },
+      "next_steps": [
+        "Apply at nystateofhealth.ny.gov",
+        "Provide income verification",
+        "Select health plan"
+      ],
+      "documents_needed": [
+        "SSN",
+        "Proof of income",
+        "Proof of NY residence",
+        "Immigration documents (if applicable)"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Free comprehensive coverage",
+      "benefit_type": "Medicaid Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@newyork.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "new york"
+      ]
+    },
+    {
+      "id": "fl-snap",
+      "name": "Florida SNAP (ACCESS Florida)",
+      "short_name": "FL SNAP",
+      "description": "Florida food assistance via ACCESS Florida portal.",
+      "category": "nutrition",
+      "level": "state",
+      "state": "FL",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true
+      },
+      "apply_url": "https://www.myflfamilies.com/service-programs/access/",
+      "apply_phone": "1-866-762-2237",
+      "customer_care": {
+        "phone": "1-866-762-2237",
+        "hours": "Mon-Fri 8AM-5PM EST",
+        "website": "https://www.myflfamilies.com/",
+        "notes": "Apply at MyACCESSFlorida.com."
+      },
+      "next_steps": [
+        "Apply at MyACCESSFlorida.com",
+        "Complete interview",
+        "Submit documents",
+        "Receive EBT card"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "SSN cards",
+        "Proof of income",
+        "Proof of FL residence"
+      ],
+      "processing_time": "30 days",
+      "benefit_amount": "Varies by household",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "admin@florida.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "florida"
+      ]
+    },
+    {
+      "id": "fl-medicaid",
+      "name": "Florida Medicaid",
+      "short_name": "FL Medicaid",
+      "description": "Florida Medicaid for children, pregnant women, elderly, and disabled. Florida has not expanded Medicaid.",
+      "category": "healthcare",
+      "level": "state",
+      "state": "FL",
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 138,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Not expanded. Children up to 210% FPL. Pregnant women up to 191% FPL."
+      },
+      "apply_url": "https://www.myflfamilies.com/service-programs/access/",
+      "apply_phone": "1-866-762-2237",
+      "customer_care": {
+        "phone": "1-866-762-2237",
+        "hours": "Mon-Fri 8AM-5PM EST",
+        "website": "https://www.myflfamilies.com/",
+        "notes": "Apply through ACCESS Florida."
+      },
+      "next_steps": [
+        "Apply at MyACCESSFlorida.com",
+        "Provide income info",
+        "Select health plan"
+      ],
+      "documents_needed": [
+        "SSN numbers",
+        "Proof of income",
+        "Proof of FL residence"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Free health coverage",
+      "benefit_type": "Medicaid Card",
+      "is_active": true,
+      "priority_score": 10,
+      "added_by": "admin@florida.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "florida"
+      ]
+    },
+    {
+      "id": "medicare-savings-federal",
+      "name": "Medicare Savings Programs",
+      "short_name": "Medicare Savings",
+      "description": "Helps pay Medicare premiums, deductibles, and coinsurance for low-income seniors and disabled Medicare beneficiaries.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Must be enrolled in Medicare Part A. QMB covers premiums, deductibles, copays at 100% FPL. SLMB at 120% FPL. QI at 135% FPL."
+      },
+      "apply_url": "https://www.medicare.gov/your-medicare-costs/get-help-paying-costs/medicare-savings-programs",
+      "apply_phone": "1-800-633-4227",
+      "customer_care": {
+        "phone": "1-800-633-4227 (1-800-MEDICARE)",
+        "hours": "24/7",
+        "website": "https://www.medicare.gov/",
+        "notes": "TTY: 1-877-486-2048. Contact your State Health Insurance Assistance Program (SHIP) for free counseling."
+      },
+      "next_steps": [
+        "Contact your state Medicaid office",
+        "Apply for Medicare Savings Program",
+        "Provide income and resource documentation",
+        "Benefits begin the month after approval"
+      ],
+      "documents_needed": [
+        "Medicare card",
+        "Proof of income",
+        "Bank statements",
+        "Proof of resources/assets",
+        "Photo ID"
+      ],
+      "processing_time": "45 days",
+      "benefit_amount": "Pays Medicare Part B premium (74.70/month in 2024) + may cover deductibles and copays",
+      "benefit_type": "Premium and cost-sharing assistance",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "medicare",
+        "seniors",
+        "healthcare",
+        "disability"
+      ]
+    },
+    {
+      "id": "snap-seniors-federal",
+      "name": "SNAP for Seniors (60+)",
+      "short_name": "Senior SNAP",
+      "description": "Simplified SNAP application for seniors 60 and older with streamlined verification and higher deductions for medical expenses.",
+      "category": "nutrition",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 200,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "For adults 60+. Simplified application. Medical expense deductions above $35/month. May qualify even with higher income due to deductions."
+      },
+      "apply_url": "https://www.fns.usda.gov/snap/apply",
+      "apply_phone": "1-800-221-5689",
+      "customer_care": {
+        "phone": "1-800-221-5689",
+        "hours": "Mon-Fri 7AM-10PM EST",
+        "website": "https://www.fns.usda.gov/snap",
+        "notes": "Many seniors qualify but do not apply. Dial 2-1-1 for help with your application."
+      },
+      "next_steps": [
+        "Contact your local SNAP office or dial 2-1-1",
+        "Request a simplified senior application",
+        "Provide income and medical expense information",
+        "Receive EBT card if approved"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Proof of age (60+)",
+        "Proof of income",
+        "List of monthly medical expenses",
+        "Proof of residence"
+      ],
+      "processing_time": "30 days (7 days expedited)",
+      "benefit_amount": "$234/month average; seniors may get extra due to medical deductions",
+      "benefit_type": "EBT Card",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "food",
+        "seniors",
+        "elderly",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "ssdi-federal",
+      "name": "Social Security Disability Insurance (SSDI)",
+      "short_name": "SSDI",
+      "description": "Monthly disability benefits for workers who have paid into Social Security and can no longer work due to a medical condition expected to last at least 12 months.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Must have worked and paid Social Security taxes. Must have a qualifying disability preventing substantial gainful activity. No income limit \u2014 based on work credits."
+      },
+      "apply_url": "https://www.ssa.gov/disability/",
+      "apply_phone": "1-800-772-1213",
+      "customer_care": {
+        "phone": "1-800-772-1213",
+        "hours": "Mon-Fri 8AM-7PM local time",
+        "website": "https://www.ssa.gov/disability/",
+        "notes": "TTY: 1-800-325-0778. Apply online, by phone, or at local Social Security office."
+      },
+      "next_steps": [
+        "Apply online at ssa.gov/disability",
+        "Or call 1-800-772-1213",
+        "Gather medical records",
+        "Complete disability report",
+        "Attend consultative examination if requested"
+      ],
+      "documents_needed": [
+        "Social Security card",
+        "Birth certificate",
+        "Medical records and treatment history",
+        "Doctor names and contact info",
+        "Work history for last 15 years",
+        "Medications list"
+      ],
+      "processing_time": "3-6 months (can appeal if denied)",
+      "benefit_amount": "Average $1,537/month (2024); based on lifetime earnings",
+      "benefit_type": "Monthly direct deposit or check",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "disability",
+        "financial",
+        "social security"
+      ]
+    },
+    {
+      "id": "childtaxcredit-federal",
+      "name": "Child Tax Credit",
+      "short_name": "Child Tax Credit",
+      "description": "Tax credit of up to $2,000 per qualifying child under 17. Partially refundable \u2014 you can get up to $1,700 back even if you owe no taxes.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "requires_children": true,
+        "max_child_age": 17,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Full credit for income under $200,000 (single) or $400,000 (married). Phases out above those amounts. Child must have SSN."
+      },
+      "apply_url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+      "apply_phone": "1-800-829-1040",
+      "customer_care": {
+        "phone": "1-800-829-1040 (IRS)",
+        "hours": "Mon-Fri 7AM-7PM local time",
+        "website": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+        "notes": "Claim when filing taxes. Free filing at VITA sites."
+      },
+      "next_steps": [
+        "File your federal tax return",
+        "Claim Child Tax Credit on tax form",
+        "Find free tax help at irs.gov/vita",
+        "Receive credit as part of tax refund"
+      ],
+      "documents_needed": [
+        "W-2 or income forms",
+        "Children's Social Security numbers",
+        "Children's birth certificates",
+        "Bank info for direct deposit"
+      ],
+      "processing_time": "Refund within 21 days of e-filing",
+      "benefit_amount": "Up to $2,000 per child under 17 ($1,700 refundable)",
+      "benefit_type": "Tax credit / refund",
+      "is_active": true,
+      "priority_score": 9,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "tax",
+        "children",
+        "financial",
+        "credit"
+      ]
+    },
+    {
+      "id": "marketplace-insurance-federal",
+      "name": "ACA Marketplace Health Insurance (Subsidized)",
+      "short_name": "ACA Marketplace",
+      "description": "Subsidized health insurance through the ACA marketplace (Healthcare.gov). Premium tax credits and cost-sharing reductions for those who earn too much for Medicaid.",
+      "category": "healthcare",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 400,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "For those earning 100-400% FPL who do not qualify for Medicaid. Enhanced subsidies currently have no upper income limit through 2025. Cannot be offered affordable employer coverage."
+      },
+      "apply_url": "https://www.healthcare.gov/",
+      "apply_phone": "1-800-318-2596",
+      "customer_care": {
+        "phone": "1-800-318-2596",
+        "hours": "24/7",
+        "website": "https://www.healthcare.gov/",
+        "notes": "Open enrollment Nov 1 - Jan 15 annually. Special enrollment for life changes (job loss, baby, moving)."
+      },
+      "next_steps": [
+        "Visit Healthcare.gov during open enrollment",
+        "Create an account and complete application",
+        "Compare plans and subsidies",
+        "Select a plan and pay first premium",
+        "Use your new coverage starting the 1st of the month"
+      ],
+      "documents_needed": [
+        "Social Security numbers for household",
+        "Immigration documents (if applicable)",
+        "Employer and income information",
+        "Current insurance info (if any)",
+        "Tax return from prior year"
+      ],
+      "processing_time": "Instant eligibility determination; coverage starts 1st of next month",
+      "benefit_amount": "Premium tax credits can reduce monthly premium to $0-$50 for low income",
+      "benefit_type": "Subsidized health insurance premiums",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "health",
+        "insurance",
+        "marketplace",
+        "ACA",
+        "obamacare"
+      ]
+    },
+    {
+      "id": "free-tax-filing-federal",
+      "name": "IRS Free File & VITA Tax Preparation",
+      "short_name": "Free Tax Filing",
+      "description": "Free tax preparation and filing for households earning under $79,000. VITA sites offer in-person help; IRS Free File provides free software online.",
+      "category": "financial",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 600,
+        "citizenship_required": false,
+        "legal_resident_ok": true,
+        "custom_rules": "IRS Free File for income under $79,000. VITA sites for income under $64,000, disabled, limited English, or elderly. AARP Tax-Aide for 50+."
+      },
+      "apply_url": "https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free",
+      "apply_phone": "1-800-906-9887",
+      "customer_care": {
+        "phone": "1-800-906-9887 (VITA Locator)",
+        "hours": "Mon-Fri 7AM-7PM local time",
+        "website": "https://www.irs.gov/vita",
+        "notes": "Find a VITA site at irs.gov/vita or call 1-800-906-9887."
+      },
+      "next_steps": [
+        "Find a VITA site near you at irs.gov/vita",
+        "Or use IRS Free File at irs.gov/freefile",
+        "Bring all tax documents to your appointment",
+        "Have taxes prepared and filed for free"
+      ],
+      "documents_needed": [
+        "Photo ID",
+        "Social Security cards for all family members",
+        "W-2s, 1099s, and other income forms",
+        "Prior year tax return",
+        "Bank routing and account numbers"
+      ],
+      "processing_time": "Same day preparation at VITA; refund in 21 days",
+      "benefit_amount": "Saves $200-$400 in tax preparation fees + ensures you claim all credits",
+      "benefit_type": "Free service",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "tax",
+        "financial",
+        "free filing"
+      ]
+    },
+    {
+      "id": "fafsa-federal",
+      "name": "Federal Student Aid (FAFSA - All Types)",
+      "short_name": "FAFSA / Student Aid",
+      "description": "Complete the FAFSA to access federal grants, work-study, and student loans. Even if you think your income is too high, many families qualify for some aid.",
+      "category": "education",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": null,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "No income limit for federal student loans. Grants based on financial need. All students planning to attend college should complete FAFSA. Available for undergraduate and graduate students."
+      },
+      "apply_url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "apply_phone": "1-800-433-3243",
+      "customer_care": {
+        "phone": "1-800-433-3243",
+        "hours": "Mon-Fri 8AM-11PM EST",
+        "website": "https://studentaid.gov/",
+        "notes": "FAFSA opens October 1 each year. Apply as early as possible for best aid."
+      },
+      "next_steps": [
+        "Create FSA ID at studentaid.gov",
+        "Complete FAFSA online",
+        "List colleges you plan to attend",
+        "Review your Student Aid Report",
+        "Compare financial aid offers from schools"
+      ],
+      "documents_needed": [
+        "FSA ID",
+        "Social Security number",
+        "Tax returns",
+        "W-2 forms",
+        "Bank statements",
+        "Records of investments"
+      ],
+      "processing_time": "3-5 days for FAFSA; schools respond in weeks",
+      "benefit_amount": "Grants up to $7,395/year; loans up to $12,500/year; work-study varies",
+      "benefit_type": "Grants, loans, and work-study",
+      "is_active": true,
+      "priority_score": 8,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "education",
+        "college",
+        "student",
+        "loans",
+        "grants"
+      ]
+    },
+    {
+      "id": "snap-employment-training-federal",
+      "name": "SNAP Employment & Training (SNAP E&T)",
+      "short_name": "SNAP E&T",
+      "description": "Free job training, education, and work experience programs for SNAP recipients. Includes GED classes, vocational training, job search help, and transportation assistance.",
+      "category": "employment",
+      "level": "federal",
+      "state": null,
+      "county": null,
+      "city": null,
+      "criteria": {
+        "max_income_percent_fpl": 130,
+        "citizenship_required": true,
+        "legal_resident_ok": true,
+        "custom_rules": "Must be a current SNAP recipient. Voluntary in most states. May cover transportation, childcare, and other costs while in training."
+      },
+      "apply_url": "https://www.fns.usda.gov/snap/et",
+      "apply_phone": null,
+      "customer_care": {
+        "phone": "Contact your local SNAP office",
+        "hours": "Mon-Fri 8AM-5PM local time",
+        "website": "https://www.fns.usda.gov/snap/et",
+        "notes": "Ask your SNAP caseworker about E&T programs in your area."
+      },
+      "next_steps": [
+        "Contact your SNAP caseworker",
+        "Ask about available E&T programs",
+        "Enroll in training or education",
+        "Receive support services while training"
+      ],
+      "documents_needed": [
+        "SNAP enrollment verification",
+        "Photo ID",
+        "Resume or work history"
+      ],
+      "processing_time": "1-2 weeks for enrollment",
+      "benefit_amount": "Free training + may cover transportation, childcare, books, and supplies",
+      "benefit_type": "Free training and supportive services",
+      "is_active": true,
+      "priority_score": 7,
+      "added_by": "federal@benefits.gov",
+      "last_updated": "2024-02-01",
+      "tags": [
+        "employment",
+        "training",
+        "SNAP",
+        "job"
+      ]
+    }
+  ],
+  "last_updated": "2024-02-20",
+  "version": "2.0"
+}
